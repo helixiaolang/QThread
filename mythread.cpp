@@ -14,5 +14,12 @@ void MyThread::run()
 {
     // 这是一个复杂的操作
     sleep(5);
+    for(int i = 0; i < 1000000; i++)
+    {
+        for(int j = 0; j < 123456789; j++)
+        {
+
+        }
+    }
     emit sigDone();
 }
